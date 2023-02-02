@@ -1,0 +1,42 @@
+
+
+.profile{
+  margin: 50px auto;
+    max-width: 300px;
+    width: 100%;
+    background-color: rgb(186, 238, 238);
+}
+.description{
+ text-align: center;
+ margin: 0 auto;
+padding: 30px 0;
+
+ &__avatar {
+        display: block;
+        margin: 0 auto;
+        max-width: 100px;
+
+       
+
+    }
+}
+
+.stats{
+    gap: 15px;
+     display: flex;
+        
+}
+.item {
+    text-align: center;
+    list-style: none;
+
+
+    &__label,
+    &__quantity {
+        display: block;
+    }
+
+    &__label:not(:last-child) {
+        padding-bottom: 20px;
+    }
+}
