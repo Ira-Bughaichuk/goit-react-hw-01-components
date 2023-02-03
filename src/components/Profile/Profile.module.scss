@@ -1,42 +1,129 @@
 
-
 .profile{
-  margin: 50px auto;
-    max-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
     width: 100%;
-    background-color: rgb(186, 238, 238);
+    padding: 20px;
+    border: 1px solid gray;
+    // background-color: antiquewhite;
 }
 .description{
- text-align: center;
- margin: 0 auto;
-padding: 30px 0;
+    text-align: center;
+    margin: 0 auto;
 
- &__avatar {
-        display: block;
+    &__avatar{
+        max-width: 200px;
+        width: 100%;
+        padding: 10px 5px;
+    }
+    &__name{
+        font-size: 24px;
+        font-weight: 700;
+       color: black;
+    }
+
+    &__location,
+    &__tag{
+        font-size: 16px;
+        color: gray;
+     
+    }
+    &__tag:not(:last-child){
+        margin: 10px 2px;
+    }
+        
+}
+.stats{
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    // display: block;
+    // margin: 0 auto;
+        background-color: rgb(148, 147, 147, 0.3);
+    
+// &::after {
+//         content: '';
+//         display: block;
+//         width: 2px;
+//         background-color: gray;
+//         height: 100%;
+//     }
+
+//     &::before{
+//         content: '';
+//         display: block;
+//         width: 2px;
+//         background-color: gray;
+//         height: 100%;
+//     }
+}
+.item{
+    display: inline-block;
+    padding: 0 10px;
+    list-style: none;
+
+    &:not(:last-child){
+        margin: 0 10px;
+    }
+   
+
+    &__quantity{
+        font-size: 18px;
+        color: black;
         margin: 0 auto;
-        max-width: 100px;
+            display: block;
+            font-weight: 700;
+    }
+    
+    &__label{
+    margin: 0 auto;
+        display: block;
+        color: gray;
+        font-weight: 600;
+    }
+
+}
+// .profile{
+//   margin: 50px auto;
+//     max-width: 300px;
+//     width: 100%;
+//     background-color: rgb(186, 238, 238);
+// }
+// .description{
+//  text-align: center;
+//  margin: 0 auto;
+// padding: 30px 0;
+
+//  &__avatar {
+//         display: block;
+//         margin: 0 auto;
+//         max-width: 100px;
 
        
 
-    }
-}
+//     }
+// }
 
-.stats{
-    gap: 15px;
-     display: flex;
+// .stats{
+//     gap: 15px;
+//      display: flex;
         
-}
-.item {
-    text-align: center;
-    list-style: none;
+// }
+// .item {
+//     text-align: center;
+//     list-style: none;
 
 
-    &__label,
-    &__quantity {
-        display: block;
-    }
+//     &__label,
+//     &__quantity {
+//         display: block;
+//     }
 
-    &__label:not(:last-child) {
-        padding-bottom: 20px;
-    }
-}
+//     &__label:not(:last-child) {
+//         padding-bottom: 20px;
+//     }
+// }
+
+
+

@@ -17,12 +17,12 @@ function Profile({ username,
        <div className={css.description}>
     <img
       src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
-      alt="User avatar"
+      alt={avatar}
       className={css.description__avatar}
     />
-    <p className="description__name">{username}</p>
-               <p className="description__tag">{tag}</p>
-    <p className="description__location">{location}</p>
+    <p className={css.description__name}>{username}</p>
+               <p className={css.description__tag}>{tag}</p>
+    <p className={css.description__location}>{location}</p>
   </div>
 
        <ul className={css.stats}>

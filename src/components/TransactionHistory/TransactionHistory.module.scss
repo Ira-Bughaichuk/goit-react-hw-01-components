@@ -1,37 +1,29 @@
-.transaction{
-    background-color: antiquewhite;
-}
-.titleList{
-    background-color: aqua;
+
+
+.transaction {
+    width: 400px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
     text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-       
-}
-.listRow{
-    text-align: center;
-    
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    column-gap: 10px;
-
-    &:nth-child(even) {
-            background-color: greenyellow;
-           
-    }
-         &:nth-child(odd) {
-             background-color: rgb(233, 238, 225);
-             
-         }
-
-       
 }
 
-// .listColumn{
-//      display: grid;
-//      gap: 10px;
-//      background-color: bisque;
-//  }
+table {
+    border-collapse: initial;
+    border-spacing: 1px;
+}
 
+thead {
+    background-color: rgb(111, 109, 245);
+}
+
+th {
+    height: 50px;
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(96, 217, 238);
+}
 
 
