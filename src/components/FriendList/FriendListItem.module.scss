@@ -1,5 +1,6 @@
 
 .item{
+    box-shadow: 5px 5px 15px 5px rgb(120, 115, 117);
    display: flex;
    align-items: center;
     list-style: none;
@@ -8,10 +9,6 @@
     width: 100%;
     background-color: aqua;
 
-     box-shadow:
-       inset 0 -3em 3em rgba(0,0,0,0.1),
-             0 0  0 2px rgb(255,255,255),
-             0.3em 0.3em 1em rgba(0,0,0,0.3);
 
     &__avatar{
         display: block;
